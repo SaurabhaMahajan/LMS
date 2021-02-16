@@ -1,0 +1,65 @@
+.delete {
+  height: 100%;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.delete .delete-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.delete .delete-text {
+  padding-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 329px;
+}
+
+.delete__icon {
+  color: #95DCEC;
+}
+
+.delete__what {
+  font-size: 20px;
+  font-weight: 900;
+  font-family: barlow;
+  margin-bottom: 1px;
+}
+
+.delete__item {
+  font-size: 16px;
+  font-family: barlow;
+  margin-bottom: 37px;
+}
+
+@media all and (max-width: 1600px) {
+  .delete__what {
+    font-size: 15px !important;
+    margin-bottom: 15px;
+  }
+}
+
+@media all and (max-width: 980px) {
+  .delete__what {
+    font-size: 14px !important;
+  }
+}
+/*# sourceMappingURL=DeletePopup.css.map */

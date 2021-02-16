@@ -1,0 +1,47 @@
+.CustomModal {
+    position: fixed;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    background: transparent;
+    height: auto;
+}
+
+.close-icon {
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+    right: -20px;
+    border: 0;
+    color: white;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+}
+
+.icon-img {
+  height: 35px;
+  top: 70%;
+}
+
+::-webkit-scrollbar
+{
+  width: 5px;  /* for vertical scrollbars */
+  height: 5px; /* for horizontal scrollbars */
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}

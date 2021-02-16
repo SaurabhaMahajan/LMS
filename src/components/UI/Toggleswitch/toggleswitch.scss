@@ -1,0 +1,22 @@
+.react-switch-bg{
+    height: 22px !important;
+    width: 53px !important;
+  
+    background: rgb(224, 219, 219);
+}
+.react-switch-handle{
+    height: 20px !important;
+    width: 19px !important;
+}
+#abc:checked ~ #def::before{
+    background-color: red !important;
+}
+.custom-control-input:checked ~ .custom-control-label::before{
+    background-color: red !important;
+}
+.addToggleClass::before{
+    background-color: red !important; 
+}
+.addToggleClass::after{
+    background-color: white !important;
+}

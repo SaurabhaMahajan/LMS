@@ -1,0 +1,18 @@
+.radar-chart-container {
+  svg {
+    overflow: visible;
+  }
+  .scale {
+    fill: rgba($color: #fff, $alpha: 0.5);
+    stroke: #c30248;
+    stroke-width: 2px;
+  }
+  .shape {
+    fill-opacity: 0.6;
+  }
+
+  .axis {
+    stroke: #c30248;
+    stroke-width: 1px;
+  }
+}

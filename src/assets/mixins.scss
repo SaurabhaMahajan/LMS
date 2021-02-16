@@ -1,0 +1,6 @@
+@import "include-media";
+
+@mixin cf($color, $font-size) {
+  color: $color;
+  font-size: $font-size;
+}

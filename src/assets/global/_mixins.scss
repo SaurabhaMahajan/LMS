@@ -1,0 +1,55 @@
+@mixin box-shadow($top, $left, $blur, $spread, $color) {
+  -webkit-box-shadow: $top $left $blur $color;
+  -moz-box-shadow: $top $left $blur $color;
+  box-shadow: $top, $left, $blur, $spread, $color;
+}
+@mixin font-style($font-size, $line-height, $color, $font-weight) {
+  -webkit-font: $font-size;
+  -moz-font: $font-size;
+  font: $font-size/$line-height;
+  color: $font-color;
+  font-weight: $font-weight;
+  letter-spacing: 0px;
+}
+@mixin btn-structure($color, $width) {
+  background: $color 0% 0% no-repeat padding-box;
+  width: $width;
+  font-weight: 600;
+  letter-spacing: 0;
+  border-radius: 25px;
+  height: 40px;
+  text-align: center;
+}
+@mixin button-style($color, $width) {
+    @include btn-structure($color, $width);
+    box-shadow: 0px 3px 6px #00000029;
+}
+@mixin button-cancel($color, $width) {
+  @include btn-structure($color, $width);
+ border: 1px solid #bbc2d2;
+}
+@mixin white-background{
+    background: $white-color 0% 0% no-repeat padding-box;
+}
+@mixin dropdown-box {
+    @include white-background();
+  box-shadow: 0px 0px 6px #00000029;
+}
+@mixin table-row($height) {
+    @include white-background(); 
+    box-shadow: 0px 0px 6px #bbc2d24d;
+  opacity: 0.7;
+  height: $height;
+}
+@mixin accordion-box{
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #ECECEC;
+border-radius: 2px;
+}
+@mixin margin($top,$right,$bottom,$left) {
+    margin:$top,$right,$bottom,$left;
+}
+
+@mixin padding($top,$right,$bottom,$left) {
+    padding:$top,$right,$bottom,$left;
+}

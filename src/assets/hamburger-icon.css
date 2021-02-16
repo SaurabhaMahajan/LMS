@@ -1,0 +1,77 @@
+.hamburger {
+  -webkit-transform: scale(-0.35);
+          transform: scale(-0.35);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.hamburger .dot {
+  height: 17px;
+  width: 17px;
+  background-color: #B83B3B;
+  border-radius: 50%;
+  position: absolute;
+  left: -15px;
+  top: -9px;
+}
+
+.hamburger-container {
+  height: 33px;
+  cursor: pointer;
+}
+
+.hamburger .icon {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  position: relative;
+  height: 8px;
+  width: 60px;
+  top: -40px;
+  background-color: #212121;
+  border-radius: 12px;
+}
+
+.hamburger .icon:before {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  position: absolute;
+  width: 60px;
+  height: 8px;
+  background-color: #212121;
+  content: "";
+  top: -20px;
+  border-radius: 12px;
+}
+
+.hamburger .icon:after {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  position: absolute;
+  width: 60px;
+  height: 8px;
+  background-color: #212121;
+  content: "";
+  top: 20px;
+  border-radius: 12px;
+}
+
+.hamburger.open .icon {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background: transparent;
+}
+
+.hamburger.open .icon:before {
+  -webkit-transform: rotateZ(45deg) scaleX(1.25) translate(13px, 13px);
+  transform: rotateZ(45deg) scaleX(1.25) translate(13px, 13px);
+}
+
+.hamburger.open .icon:after {
+  -webkit-transform: rotateZ(-45deg) scaleX(1.25) translate(12px, -12px);
+  transform: rotateZ(-45deg) scaleX(1.25) translate(12px, -12px);
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=hamburger-icon.css.map */

@@ -1,0 +1,9 @@
+.bar-chart-container {
+  text-align: center;
+}
+
+.bar-chart-container rect {
+  stroke: #00b2ff;
+  fill: #00b2ff;
+}
+/*# sourceMappingURL=BarChartComponent.css.map */

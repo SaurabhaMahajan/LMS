@@ -1,0 +1,159 @@
+.custom-btn {
+  font-family: "Barlow", sans-serif;
+  opacity: 1;
+  font-size: 13px;
+  padding: 8px 29px;
+  font-weight: 600;
+  letter-spacing: 0;
+  border-radius: 25px;
+  border: none;
+}
+
+.disabled {
+  background: #92e0f1 0% 0% no-repeat padding-box;
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+.blue {
+  background: #0a9fc2 0% 0% no-repeat padding-box;
+  color: #fff;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+}
+
+.white {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #bbc2d2;
+  opacity: 1;
+  color: #bbc2d2;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  padding: 7px 20px;
+}
+
+.btn-green {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4c9e26), to(#79be34));
+  background: linear-gradient(180deg, #4c9e26 0%, #79be34 100%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: #fff;
+}
+
+.btn-purple {
+  background: -webkit-gradient(linear, left top, left bottom, from(#a30d55), to(#d95c98));
+  background: linear-gradient(180deg, #a30d55 0%, #d95c98 100%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: #fff;
+}
+
+.btn-blue {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3176a5), to(#5fb5d0));
+  background: linear-gradient(180deg, #3176a5 0%, #5fb5d0 100%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: #fff;
+}
+
+.btn-yellow {
+  background: -webkit-gradient(linear, left top, left bottom, from(#d18a00), to(#f3c13f));
+  background: linear-gradient(180deg, #d18a00 0%, #f3c13f 100%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: #fff;
+}
+
+.yellow {
+  width: 345px;
+  padding: 20px;
+  font-size: 15px;
+  color: #ab003e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffa800), to(#ffc123));
+  background: linear-gradient(180deg, #ffa800 0%, #ffc123 100%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  line-height: 40.19px;
+  font-family: "mukta-extra-bold";
+}
+
+.yellow.disabled {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFA800), to(#FFC123));
+  background: linear-gradient(180deg, #FFA800 0%, #FFC123 100%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.submit-btn-container .yellow {
+  height: 70px;
+  padding: 0;
+  line-height: 33px;
+}
+
+.small-yellow-light {
+  width: 165px;
+  padding: 16px 26px;
+  font-size: 16px;
+  color: #000;
+  background: #ffc700;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  line-height: 15.31px;
+  font-family: "mukta-extra-bold";
+  height: 50px;
+}
+
+.small-yellow-dark {
+  width: 165px;
+  padding: 16px 26px;
+  font-size: 16px;
+  color: #000;
+  background: #ffb800;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  line-height: 15.31px;
+  font-family: "mukta-extra-bold";
+  height: 50px;
+}
+
+.blue {
+  width: auto;
+  padding: 20px;
+  font-size: 42px;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3176a5), to(#5fb5d0));
+  background: linear-gradient(180deg, #3176a5 0%, #5fb5d0 100%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  line-height: 40.19px;
+  font-family: "mukta-extra-bold";
+}
+
+.dark-yellow {
+  width: auto;
+  padding: 20px;
+  font-size: 42px;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#E36F10), to(#F4A665));
+  background: linear-gradient(180deg, #E36F10 0%, #F4A665 100%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  line-height: 40.19px;
+  font-family: "mukta-extra-bold";
+}
+
+button:focus, input:focus {
+  outline: 0 !important;
+}
+/*# sourceMappingURL=button.css.map */
